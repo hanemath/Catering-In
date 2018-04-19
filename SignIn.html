@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Daftar/Masuk</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+
+  </head>
+
+  <body style="background: url(image/bg3.jpg);">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><strong>CATERING-IN</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><strong>Beranda</strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Kategori.html"><strong>Kategori Sajian</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><strong>Pesanan</strong></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="SignUp.html"><strong>Daftar/Masuk</strong>
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row text-center text-lg-left">
+
+        <div class="col-sm-10" style="height: 563px;">
+          <div id="logbox" style="margin-top: 120px;">
+            <form id="signup" method="post" action="/signup">
+              <p> </p>
+              <h1><strong>Masuk</strong></h1>
+              <p> </p>
+              <input name="user[email]" type="email" placeholder="Email" required="required" class="input pass"/>
+              <input name="user[password]" type="password" placeholder="Password" class="input pass"/>
+              <a href="Kategori.html" class="inputButton" role="button"><strong>MASUK</strong></a>
+              <div class="text-center">
+                Lupa Password? <a href="#" id="login_id">Ingatkan</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="text-center text-white mx-1">-----Copyright &copy; Catering-In 2018-----</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
